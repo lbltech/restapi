@@ -15,3 +15,6 @@ export FLASK_ENV=development or production
 To run:  flask --host=your hostname/ip --port:your target port
 
 This is a good resource to provide REST api for purposes in a reduced scope.
+
+
+teste
