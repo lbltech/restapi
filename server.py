@@ -10,7 +10,6 @@ db_connect = create_engine('sqlite:///chinook.db')
 app = Flask(__name__)
 api = Api(app)
 
-
 CORS(app)
 
 class Employees(Resource):
