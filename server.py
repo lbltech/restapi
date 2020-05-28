@@ -55,4 +55,4 @@ api.add_resource(Employees_Title_Update,'/employees_update/<employee_id>') #atua
 
 
 if __name__ == '__main__':
-	app.run(host='127.0.0.1', port=int(os.getenv('PORT', 5555)))
+	app.run(host='127.0.0.1', port=int(os.getenv('PORT', 5000)))
