@@ -51,7 +51,6 @@ api.add_resource(Employees_Name, '/employees/<employee_id>') # Route_3
 api.add_resource(Employees_Name_Delete,'/employees_delete/<employee_id>') #teste com remocao
 api.add_resource(Employees_Title_Update,'/employees_update/<employee_id>') #atualiza titulo
 
-#teste123
 
 if __name__ == '__main__':
 	app.run(host='127.0.0.1', port=int(os.getenv('PORT', 5001)))
